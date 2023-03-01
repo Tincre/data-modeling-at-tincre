@@ -11,7 +11,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [dev-packages]
 # you don't need these but useful
 ipython = "*"
@@ -19,7 +18,7 @@ black = "*"
 pytest = "*"
 pytest-cov = "*"
 pre-commit = "*"
-sqlacodegen = "*"
+sqlacodegen = {git = "https://github.com/agronholm/sqlacodegen.git"}
 
 [packages]
 # you do need these
