@@ -1,6 +1,6 @@
 # Data Modeling at Tincre
 
-This repository accompanies [Tincre](https://tincre.com)'s [Slightly Sharpe blog](https://slightlysharpe.com/blog/how-we-build) series.
+This repository accompanies [Tincre](https://tincre.com)'s [Slightly Sharpe blog](https://slightlysharpe.com/blog/how-we-build/data-modeling-at-tincre) series.
 
 ## Frontend - Next.js
 
@@ -16,6 +16,6 @@ rapid and performant API development.
 
 ## Licensing
 
-The code herein is MIT licensed. See the LICENSE file for details.
+The code herein is MIT licensed. See the [LICENSE](/LICENSE) file for details.
 
-(c) Tincre 2023
+(c) [Tincre](https://tincre.com) 2023
