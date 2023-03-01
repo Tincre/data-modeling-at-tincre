@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# The default Tincre Pipfile.
+#
+# This should be customized per application requirements; uncomment or add
+# those packages required. This should be used for datascience, web, and
+# most other Python-based projects, replacing raw venv or anaconda usage.
+# -----------------------------------------------------------------------------
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+# you don't need these but useful
+ipython = "*"
+black = "*"
+pytest = "*"
+pytest-cov = "*"
+pre-commit = "*"
+sqlacodegen = "*"
+
+[packages]
+# you do need these
+fastapi = "*"
+uvicorn = "*"
+toml = "*"
+gunicorn = "*" # you don't need this if you're not deploying
+psycopg2 = "*"
+sqlalchemy = "*"
+
+[requires]
+ # you should probably pin an exact version and use the most recent version available
+python_version = "3.11"
